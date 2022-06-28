@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:layout_above="@+id/imageButton"
+        android:layout_marginBottom="27dp"
+        app:srcCompat="@drawable/x1" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="404dp"
+        android:layout_height="136dp"
+        android:layout_above="@+id/imageButton3"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@drawable/x3" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="389dp"
+        android:layout_height="120dp"
+        android:layout_above="@+id/imageButton4"
+        android:layout_marginBottom="20dp"
+        app:srcCompat="@drawable/x4" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="387dp"
+        android:layout_height="125dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="24dp"
+        app:srcCompat="@drawable/x2" />
+
+</RelativeLayout>
